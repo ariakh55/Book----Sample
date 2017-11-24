@@ -1,5 +1,5 @@
 #include "ClassBook.h"
-#include "header.h"
+#include "Header.h"
 
 int book_id = 100;
 
@@ -10,7 +10,7 @@ ClassBook::ClassBook(int Id,string name,int count){
 	cout<<"\n\nBook Added";
 }
 
-ClassBook::void Print_book(){
+void ClassBook::Print_book(){
 	cout<<"ID: "<<BId<<" "<<"Name: "<<Bname<<" "<<"Count: "<<Bcount<<endl; 
 }
 
